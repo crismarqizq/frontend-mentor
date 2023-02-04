@@ -18,7 +18,7 @@ function App() {
     <div id="app-flex-container" height="100%" width="100%">
       <div className="advice-box">
         <div className="advice-container">
-          <div className="advice-heading">Your advice #{advice.id}</div>
+          <div className="advice-heading">Advice #{advice.id}</div>
           <div className="quote">"{advice.text}"</div>
         </div>
         <div className="pattern-divider">
