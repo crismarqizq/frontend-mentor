@@ -15,8 +15,8 @@ function App() {
   }, []);
 
   return (
-    <main>
-      <div className="flex-container">
+    <div className="full-screen" height="100%" width="100%">
+      <div id="app-flex-container" height="100%">
         <div className="advice-box">
           <div className="advice-container">
             <div className="advice-heading">Advice #{advice.id}</div>
@@ -24,7 +24,7 @@ function App() {
           </div>
           <div className="pattern-divider">
             <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
                 <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z" />
                 <g transform="translate(212)" fill="#CEE3E9">
                   <rect width="6" height="16" rx="3" />
@@ -43,7 +43,7 @@ function App() {
           </svg>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 

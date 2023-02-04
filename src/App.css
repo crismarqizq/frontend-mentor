@@ -1,10 +1,12 @@
-main{
+.full-screen{
   height: 100%;
   width: 100%;
-  
+  display: flex;
 }
-.flex-container{ 
+
+#app-flex-container{ 
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,6 +23,7 @@ main{
   border-radius: 10px;
   background-color: hsl(217, 19%, 24%);
 }
+
 .advice-container{
   display: flex;
   flex-direction: column;
